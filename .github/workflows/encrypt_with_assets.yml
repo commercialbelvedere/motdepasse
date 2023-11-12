@@ -33,9 +33,9 @@ jobs:
         run: >
           staticrypt index.html -p ${{ secrets.DECRYPTION_PASSPHRASE }} --short
           --template "password_template.html"
-          --template-title "Login"
-          --template-instructions "This is a test website, use the password 'test' to enter."
-          --template-button "Open Page"
+          --template-title "Concours"
+          --template-instructions "Entrez la réponse à l'énigme pour passer à l'étape d'après"
+          --template-button "Ouvrir"
           --template-color-primary "#113e9f"
           --template-color-secondary "#e4e4e4"
       - name: Clean up
